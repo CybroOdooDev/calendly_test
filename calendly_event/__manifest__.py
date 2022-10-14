@@ -28,10 +28,10 @@
     'maintainer': 'Cybrosys Techno Solutions',
     'license': 'LGPL-3',
     'depends': [
+        'contacts',
         'calendar',
     ],
     'data': [
-        'views/calendly_warning_views.xml',
         'views/res_config_settings_views.xml',
     ],
     # 'images': ['static/description/banner.png'],
