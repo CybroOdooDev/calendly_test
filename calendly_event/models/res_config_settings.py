@@ -42,12 +42,6 @@ class ResConfigSettings(models.TransientModel):
                         "----------webhooks_exist--------------------------%s",
                         calendly.list_webhooks())
                 except Exception as e:
-                    print("e", e)
-                    return {
-                        'name': 'calendly.warning.form',
-                        'type': 'ir.actions.act_window',
-                        'res_model': 'calendly.warning',
-                        'view_mode': 'form',
-                        'view_type': 'form',
-                        'target': 'new'
-                    }
+                    raise Warning(
+                        "It will remove already existing calendly api,"
+                        "And will create new one with this api key")
