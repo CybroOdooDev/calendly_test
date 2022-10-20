@@ -1,4 +1,4 @@
-from calendly import Calendly
+from .calendly import Calendly
 from odoo import fields, models, api, http
 import logging
 from odoo.exceptions import Warning
