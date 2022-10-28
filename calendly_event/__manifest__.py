@@ -34,6 +34,7 @@
     'data': [
         'views/calendly_warning_views.xml',
         'views/res_config_settings_views.xml',
+        'security/ir.model.access.csv'
     ],
     'images': ['static/description/banner.png'],
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-        <record id="view_calendly_warning" model="ir.ui.view">
+    <record id="view_calendly_warning" model="ir.ui.view">
             <field name="name">calendly.warning.form</field>
             <field name="model">calendly.warning</field>
             <field name="arch" type="xml">
@@ -14,4 +14,13 @@
                 </form>
             </field>
         </record>
+    <record id="action_view" model="ir.actions.act_window">
+            <field name="name">Calendly Warning</field>
+            <field name="res_model">calendly.warning</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_calendly_warning"/>
+            <field name="target">new</field>
+        </record>
+
+
 </odoo>
