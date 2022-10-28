@@ -21,7 +21,7 @@
 #############################################################################
 {
     'name': 'Calendly Integration',
-    'version': '15.0.1.0.1',
+    'version': '1.0',
     'summary': 'Calendly Integration',
     'author': 'Cybrosys Techno solutions',
     'company': 'Cybrosys Techno Solutions',
