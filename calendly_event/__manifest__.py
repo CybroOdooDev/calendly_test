@@ -31,6 +31,9 @@
         'contacts',
         'calendar',
     ],
+    'external_dependencies': {
+        'python': ['calendly']
+    },
     'data': [
         'views/calendly_warning_views.xml',
         'views/res_config_settings_views.xml',
